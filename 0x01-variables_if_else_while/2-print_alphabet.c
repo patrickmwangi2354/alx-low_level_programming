@@ -10,16 +10,12 @@
 
 int main(void)
 {
-	char c;
-
-	for (c = 'a' ; c <= 'z' ; c++)
-	{
-		putchar(c);
-	}
-	putchar('\n');
-	return (0);
-
-
-
-
-
+  char alp[26] = 'abcdefghijklmnopqrstuvwxyz';
+  int i;
+  for (i = 0; i < 26; 1++)
+    {
+      putchar(alp[26]);
+    }
+      putchar('\n');
+      return (0);
+      
