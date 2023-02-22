@@ -1,1 +1,2 @@
-Low levelprogramme folder should have a readme file
+Alx low level programming
+This diretory  contains all the task in first month  with  Alx.
