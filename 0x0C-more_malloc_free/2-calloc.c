@@ -12,16 +12,14 @@
  */
 
 char *_memset(char *s, char b, unsigned int n)
-void *ptr;
-if (nmemb == 0 || size == 0)
+
 {
-return (NULL);
-}
-ptr = malloc(nmemb * size);
-if (ptr == NULL)
+unsigned int i;
+
+for (i = 0; i < n; i++)
 {
-return (NULL);
+s[i] = b;
+
 }
-memset(ptr, 0, nmemb * size);
-return (ptr);
+return (s);
 }
